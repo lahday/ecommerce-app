@@ -1,10 +1,30 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+<Header />
   <router-view/>
 </template>
+
+
+<script>
+import Header from '@/components/header.vue'
+
+
+
+export default{
+  components : {
+    Header
+  },
+  data () {
+    return {
+      cart: [
+        {
+          name: '',
+          price: '',
+        }
+      ]
+    }
+  }
+}
+</script>
 
 <style>
 #app {
