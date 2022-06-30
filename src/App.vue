@@ -34,17 +34,20 @@ export default{
   text-align: center;
   color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
+.bm-menu{
+  background-color: #ffff !important;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.line-style{
+  height: 10% !important;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.cross-style{
+  left: 8px;
+}
+.bm-cross {
+  background: black;
+}
+.bm-item-list {
+  color: black;
+  font-weight: 800;
 }
 </style>
