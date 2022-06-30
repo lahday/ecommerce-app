@@ -39,6 +39,7 @@ export default{
 }
 .line-style{
   height: 10% !important;
+  color: black;
 }
 .cross-style{
   left: 8px;
@@ -49,5 +50,10 @@ export default{
 .bm-item-list {
   color: black;
   font-weight: 800;
+}
+.bm-burger-button {
+  width: 24px;
+  height: 20px;
+  top: 42px;
 }
 </style>

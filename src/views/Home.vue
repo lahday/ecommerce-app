@@ -117,6 +117,9 @@ border-radius: 10px;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .prd-img{
   width: 100%;

@@ -29,12 +29,12 @@
     <CartFilled v-else />
     </div>
   </teleport>
-<div class="index bg-slate-50 w-sreen border-b-2 border-gray-50 shadow-sm">
+<div class="index bg-slate-50 w-sreen border-b-2 border-gray-50 shadow-sm mx-auto">
    <div class="flex flex-row justify-between w-screen px-10 py-2">
-  <div class="flex flex-row items-center justify-center pb-2 lg:py-2 px:12 lg:px-10">
+  <div class="flex flex-row items-center justify-center md:pb-2 lg:py-2 px:12 lg:px-10 pb-8">
     <div class="logo">
     <!-- <img src="@/assets/images/logo.svg" alt="logo"> -->
-    <p class="font-extrabold sm:text-3xl lg:text-2xl px-10 lg:px-4">sneakers</p>
+    <p class="font-bold sm:text-4xl lg:text-3xl px-12 lg:px-4">sneakers</p>
     </div>
     <div class="hidden lg:flex justify-around">
     <ul class="flex flex-row justify-around px-12 font-light text-sm text-gray-400 ">
@@ -59,7 +59,7 @@
   <div class="cart-img row" >
     <div class="column">
     <!-- <img src="@/assets/images/icon-cart.svg" alt="cart" class="w-1/4 lg:pt-2 ml-3" @click="cartVisibility"> -->
-    <font-awesome-icon icon="fa-solid fa-cart-shopping" class="w-1/4 text-center font-bold ml-3" @click="cartVisibility" />
+    <font-awesome-icon icon="fa-solid fa-cart-shopping" class="w-1/4 flex pt-3 font-bold ml-3" @click="cartVisibility" />
     </div>
     <div class="column">
     <img src="@/assets/images/image-avatar.png" alt="avatar" class="w-3/5 mr-3">
